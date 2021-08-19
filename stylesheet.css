@@ -1,0 +1,102 @@
+html{
+    scroll-behavior:smooth;
+    display:block;
+    align-items:center;
+}
+ div{
+    position: center;
+    border-width:2px;
+    margin:20px 400px;
+    padding:50px;150px;
+   align-items:center;
+}
+
+form{
+    display:block;
+    position: absolute; 
+}
+
+body{
+    display:block;
+    text-align:center;
+    align-items:center;
+     background-image:url(./IPL-teams-logo-design-breakdown-scaled.jpg);
+     background-repeat: no-repeat;
+     background-size:1300px;
+    
+}
+
+[type = "text"]{
+    border:1px hidden;
+    margin-bottom: 10px;
+    width:370px;
+    text-align:center;
+     height: 15px;
+     padding:10px;
+    border-radius:5px;
+    background: rgb(248, 250, 250);
+background-image: linear-gradient(90deg,, rgb(22,61,78), rgb(160,121,73), rgb(208,126,147), rgb(208,156,217), rgb(193,202,243), rgb(232, 238, 238), rgb(210,238,239));
+   
+}
+[type = "submit"]{
+    padding:10px;
+    border-radius:5px;
+    text-align:center;  
+    width:250px; 
+    border:2px solid;
+    background-color:cadetblue;
+}
+
+select{
+    text-align:center;
+    padding:10px;
+    border-radius:5px;
+    outline:none;
+    margin-bottom: 10px;
+    width:400px;
+    height: 38px;
+    border: hidden;
+background: rgb(248, 250, 250);
+background-image: linear-gradient(90deg,, rgb(22,61,78), rgb(160,121,73), rgb(208,126,147), rgb(208,156,217), rgb(193,202,243), rgb(210,238,239), rgb(210,238,239));
+}
+
+
+h1{
+    color:rgb(253, 251, 251);
+}
+
+[type = "text"]:focus{
+    border:1px hidden;
+    margin-bottom: 10px;
+    width:370px;
+    text-align:center;
+     height: 15px;
+     padding:10px;
+    border-radius:5px;
+    background: rgb(182, 247, 247);
+background-image: linear-gradient(90deg,, rgb(22,61,78), rgb(160,121,73), rgb(208,126,147), rgb(208,156,217), rgb(193,202,243), rgb(232, 238, 238), rgb(210,238,239));
+   
+}
+
+select:focus{
+    text-align:center;
+    padding:10px;
+    border-radius:5px;
+    outline:none;
+    margin-bottom: 10px;
+    width:400px;
+    height: 38px;
+    border: hidden;
+background: rgb(182, 247, 247);
+background-image: linear-gradient(90deg,, rgb(22,61,78), rgb(160,121,73), rgb(208,126,147), rgb(208,156,217), rgb(193,202,243), rgb(210,238,239), rgb(210,238,239));
+}
+
+[type = "submit"]:focus{
+    padding:10px;
+    border-radius:5px;
+    text-align:center;  
+    width:250px; 
+    border:2px solid;
+    background-color:rgb(255, 2, 2);
+}
+
